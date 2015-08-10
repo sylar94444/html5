@@ -7,6 +7,7 @@ var HelloWorld = (function (_super) {
     var __egretProto__ = HelloWorld.prototype;
     __egretProto__.onAddToStage = function (event) {
         egret.Profiler.getInstance().run();
+        console.log("Hello World!");
     };
     return HelloWorld;
 })(egret.DisplayObjectContainer);

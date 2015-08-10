@@ -7,5 +7,6 @@ class HelloWorld extends egret.DisplayObjectContainer
     private onAddToStage(event:egret.Event)
     {
 		egret.Profiler.getInstance().run();
+		console.log("Hello World!");
     }
 }
